@@ -131,3 +131,33 @@ footer.site a{color:#888}
 .social a{color:#888;display:inline-flex;width:36px;height:36px;align-items:center;justify-content:center;border:1px solid var(--line);border-radius:50%;transition:.15s}
 .social a:hover{color:#fff;background:var(--red);border-color:var(--red)}
 .social svg{width:18px;height:18px;fill:currentColor}
+
+/* Vote Early page */
+.lead-note{max-width:760px;margin:0 auto 8px;text-align:center;color:#333;font-size:1.06rem;line-height:1.55}
+.subhead{max-width:820px;margin:40px auto 6px;font-size:1.5rem;text-align:center}
+.section-note{max-width:680px;margin:16px auto 0;text-align:center;color:var(--muted);font-size:.85rem}
+.btn.sm{padding:9px 16px;font-size:.92rem}
+.btn.outline{background:#fff;color:var(--red);border:1.5px solid var(--red)}
+.btn.outline:hover{background:var(--red);color:#fff}
+
+.keydates{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;max-width:900px;margin:24px auto 0}
+.keydate{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--red);border-radius:12px;padding:16px 18px;box-shadow:0 2px 8px rgba(0,0,0,.05)}
+.keydate .k{font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--red);font-weight:700;margin:0 0 4px}
+.keydate .v{font-size:1.18rem;font-weight:800;margin:0}
+.keydate .s{margin:3px 0 0;color:var(--muted);font-size:.88rem}
+
+.loc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px;max-width:1040px;margin:22px auto 0}
+.loc-card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;box-shadow:0 2px 8px rgba(0,0,0,.06);display:flex;flex-direction:column}
+.loc-card h3{margin:0 0 8px;font-size:1.08rem;line-height:1.3;display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.loc-card .addr{margin:0 0 12px;color:#333;font-size:.96rem;line-height:1.5}
+.loc-card .meta{margin:0 0 16px;color:var(--muted);font-size:.9rem;line-height:1.5}
+.loc-card .meta b{color:var(--ink)}
+.loc-card .btn{margin-top:auto;align-self:flex-start}
+.badge-access{display:inline-flex;align-items:center;gap:4px;background:#eef6ee;color:#1c6b2b;border:1px solid #cfe6cf;border-radius:20px;padding:2px 9px;font-size:.7rem;font-weight:700;white-space:nowrap}
+
+.steps{max-width:760px;margin:22px auto 0;padding:0;list-style:none;counter-reset:st}
+.steps li{position:relative;padding:0 0 16px 42px;color:#333;line-height:1.55}
+.steps li:last-child{padding-bottom:0}
+.steps li::before{counter-increment:st;content:counter(st);position:absolute;left:0;top:-2px;width:28px;height:28px;background:var(--red);color:#fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.9rem}
+
+.vinfo{max-width:640px;margin:22px auto 0;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:26px 22px;text-align:center;box-shadow:0 2px 8px rgba(0,0,0,.06)}
